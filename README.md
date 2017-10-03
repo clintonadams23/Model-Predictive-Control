@@ -13,11 +13,11 @@ Kinematic model equations are used as constaints to predict the vehicles future 
 
 The inputs to the optimizer are 
 
-Deviation from reference state (cross track error or cte)
-Error in steering angle 
-Error in velocity
-Magnitude of actuator input 
-Number of subsequent actuator inputs (To make the vehicle drive more smoothly)
+* Deviation from reference state (cross track error or cte)
+* Error in steering angle 
+* Error in velocity
+* Magnitude of actuator input 
+* Number of subsequent actuator inputs (To make the vehicle drive more smoothly)
 
 The goal for the optimizer is to minimize these values. They may be scaled by independent weights in order to provide some tunability.
 
