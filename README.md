@@ -1,6 +1,5 @@
 # CarND-Controls-MPC
 Self-Driving Car Engineer Nanodegree Program
-[//]: # (Image References)
 
 [image1]: ./content/kinematic_model.jpg  "Kinematic Model"
 
