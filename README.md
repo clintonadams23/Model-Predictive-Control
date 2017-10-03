@@ -7,7 +7,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 Model predictive control is used to determine the vehicle's actuator input. The model calculates the vehicles trajectory one second away and then uses a non-linear optimizer to find the set of actuator values that will minimize the difference between the predicted state and the reference trajectory. 
 
-Kinematic model equations are used as constaints to predict the vehicles future state. The equations are as follows:
+Kinematic model equations are used as constraints to predict the vehicles future state. The equations are as follows:
 
 ![alt text][image1]
 
